@@ -18,7 +18,7 @@ local function xorDecrypt(str, key)
     return result
 end
 
-local encryptedCode = game:HttpGet("https://raw.githubusercontent.com/MwHvh/MICheat/main/encrypted_aimbot.lua")
+local encryptedCode = game:HttpGet("https://github.com/MwHvh/MI-Cheat-Rivals/raw/refs/heads/main/encrypted_aimbot.lua")
 local key = 42
 
 local decryptedCode = xorDecrypt(encryptedCode, key)
